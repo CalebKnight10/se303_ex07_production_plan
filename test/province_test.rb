@@ -53,9 +53,4 @@ class ProvinceTest < Minitest::Test
     assert_raises(NameError) { asia.shortfall }
     assert_raises(ArgumentError) { asia.profit }
   end
-
-  def test_province_string_for_producers
-    prov = new Province.new(string_for_producers)
-    assert_equal(0, prov.shortfall)
-  end
 end
