@@ -21,3 +21,12 @@ def no_producer
     price: 20
   }
 end
+
+def string_for_producers
+  {
+    name: 'String producers',
+    producers: '',
+    demand: 30,
+    price: 20
+  }
+end
